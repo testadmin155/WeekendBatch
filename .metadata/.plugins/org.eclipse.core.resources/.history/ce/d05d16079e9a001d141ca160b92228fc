@@ -1,0 +1,14 @@
+package FirstPackage;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		
+		// print 1 to 100;
+		int i =0;
+		System.out.println(i);
+		
+
+	}
+
+}
