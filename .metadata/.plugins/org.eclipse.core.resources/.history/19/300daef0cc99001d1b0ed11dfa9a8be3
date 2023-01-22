@@ -1,0 +1,16 @@
+package FirstPackage;
+
+public class MyFirstProgram {
+
+	public static void main(String[] args) {
+		
+		//type SYSO and press Ctrl+spacebar - it is a comment
+		//System.out.println("Hello");
+		System.out.println("Team");
+		
+		
+		
+		
+	}
+
+}

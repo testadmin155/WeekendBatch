@@ -1,0 +1,26 @@
+package FirstPackage;
+
+public class MyFirstProgram {
+
+	public static void main(String[] args) {
+		
+		//type SYSO and press Ctrl+spacebar - it is a comment
+		/*
+		System.out.println("Hello");
+		System.out.println("Team");
+		System.out.println("how are you");
+		System.out.println("Hello");
+		System.out.println("Team");
+		*/
+		System.out.println("how are you");
+		
+		//Variables - variables are containers for storing data values
+		
+		/*DataTypes - There are two types
+		1. Primitive DataType
+		2. non-Primitive DataType
+		*/
+		
+	}
+
+}
