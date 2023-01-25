@@ -25,10 +25,13 @@ public class Operators {
 		System.out.println(x>y);  // false
 		System.out.println(x>=y); // false
 		System.out.println(x<=y);  // true
+<<<<<<< HEAD
 
 		System.out.println("Everything is correct");
 		System.out.println("Hello Everyone");
 
+=======
+>>>>>>> 1abb18f3debed4e3f8c0e4fe7fedcf08b84a9d31
 		
 
 	}
