@@ -1,0 +1,18 @@
+package FirstPackage;
+
+public class SampleTest {
+	
+	public static String getData()
+	{
+		String name = "Anees";
+		String sex = "Male";
+		
+		return name;
+	}
+
+	public static void main(String[] args) {
+		
+          getData();
+	}
+
+}
