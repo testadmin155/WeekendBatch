@@ -25,8 +25,6 @@ public class Operators {
 		System.out.println(x>y);  // false
 		System.out.println(x>=y); // false
 		System.out.println(x<=y);  // true
-		System.out.println("Everything is correct in code");
-		System.out.println("Hello everyone");
 		
 
 	}
