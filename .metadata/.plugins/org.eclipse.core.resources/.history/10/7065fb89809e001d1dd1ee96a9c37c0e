@@ -1,0 +1,25 @@
+package FirstPackage;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		
+		// print 1 to 10;
+	
+		/*int a = 10;
+		for (int i=1;i<10;i++)
+		{
+			System.out.println(i);
+		}
+		*/
+		
+		String text = "Automation testing sessions";
+		
+		for(char i=0;i<=text.length();i++)
+		{
+			System.out.println(i);
+		}
+		
+	}
+
+}

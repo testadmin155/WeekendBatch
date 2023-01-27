@@ -1,0 +1,32 @@
+package FirstPackage;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		
+		String name ="Suhaib";
+		
+		switch(name)
+		{
+		case "Qasim":
+			System.out.println("I will talk to Qasim");
+			
+		case "Usman":
+			System.out.println("I will talk to Usman");
+			
+		case "Achala":
+			System.out.println("I will talk to Achala");
+			
+		case "Suhaib":
+			System.out.println("I will talk to Suhaib");
+			
+		case "Ashwini":
+			System.out.println("I will talk to Ashwini");
+		
+		default:
+			System.out.println("Sleep");
+
+		}
+	}
+
+}
