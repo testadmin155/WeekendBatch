@@ -1,0 +1,22 @@
+package FirstPackage;
+
+public abstract class NationalSignalingSystem() {
+
+	public void greenlight() {
+		System.out.println("Go");
+	}
+	
+	public void greenlight() {
+		System.out.println("Go");
+	}
+	
+	public void greenlight() {
+		System.out.println("Go");
+	}
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

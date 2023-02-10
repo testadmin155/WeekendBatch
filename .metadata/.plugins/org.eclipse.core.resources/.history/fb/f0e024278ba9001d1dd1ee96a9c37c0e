@@ -1,0 +1,36 @@
+package FirstPackage;
+
+public class Overloading {
+	
+	//overridding happens in between sub class and super class
+	//Overloading happens only in same class
+	
+	//in a class we cant create a multiple methods with same name
+	
+	public void getData(int x)
+	{
+		
+	}
+	
+	public void getData(int x, int y)
+	{
+		
+	}
+	
+	public void getData(int x, String y)
+	{
+		
+	}
+	
+	public void getData(String X)
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

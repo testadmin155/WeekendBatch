@@ -1,0 +1,22 @@
+package FirstPackage;
+
+public class NationalsignalingSystem1 {
+
+	public void greenlight() {
+		System.out.println("Go");
+	}
+	
+	public void redlight() {
+		System.out.println("Stop");
+	}
+	
+	public void OrangeLight() {
+		System.out.println("Wait");
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

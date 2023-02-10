@@ -52,7 +52,7 @@ public class Iphone2 implements TelecomAuthorityInterface{
 		System.out.println("IPhone1 CallDivert");
 	}
 	
-	public void facetime()
+	public void facetime() 
 	{
 		System.out.println("Iphone1 facetime");
 	}

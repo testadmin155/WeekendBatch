@@ -1,0 +1,10 @@
+package FirstPackage;
+
+public class child1Class extends ParentClass{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
