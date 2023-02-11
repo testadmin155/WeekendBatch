@@ -1,0 +1,10 @@
+package SecondPackage;
+
+public class Sampleclasstest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

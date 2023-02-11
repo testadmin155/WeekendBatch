@@ -1,0 +1,25 @@
+package FirstPackage;
+
+public class Constructor {
+
+	// whenever we create an object constructor is executed
+	
+	public Constructor()
+	{
+		System.out.println("I am a constructor");
+	}
+	
+	public void getData()
+	{
+		System.out.println("this is a Method");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Constructor obj = new Constructor();
+		
+		
+	}
+
+}
