@@ -1,0 +1,25 @@
+package FirstPackage;
+
+public class WrapperClass {
+	
+	//Wrapper class is used to wrap primitive values
+	
+	//int   - Integer
+	//double - Double
+	//char - Character
+	//boolean - Boolean
+
+	public static void main(String[] args) {
+		
+		String mobileprice = "10000";
+		String headsetprice = "2000";
+		
+		int mobile = Integer.parseInt(mobileprice);
+		int hetset=Integer.parseInt(headsetprice);
+		
+		String totalprice = mobile+hetset;
+		System.out.println(totalprice);
+
+	}
+
+}

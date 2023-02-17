@@ -1,0 +1,20 @@
+package FirstPackage;
+
+public class Encapsulation {
+
+	// The process of grouping variables and its methods into a single unit is called Encapsulation
+	//Encapsulation is used for data hidding, it means that we dont see actual implementation
+	//This is used for security reasons ans to save from hackers.
+	
+	private int NRN;
+	private String name;
+	private int phonenum;
+	private String emailid;
+	
+	public static void main(String[] args) {
+		
+
+		
+	}
+
+}
