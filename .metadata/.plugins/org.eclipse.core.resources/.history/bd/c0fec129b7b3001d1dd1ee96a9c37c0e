@@ -1,0 +1,16 @@
+package FirstPackage;
+
+public class MultiDimensionArray {
+
+	public static void main(String[] args) {
+		//2 4 5 7
+		//3 4  7 8
+		//1 2 6 9
+		
+		int x[][] = {{1, 4 ,5,7},{3,4,7,8},{1,2,6,9}};
+		
+		
+
+	}
+
+}

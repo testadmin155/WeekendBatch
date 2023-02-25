@@ -1,0 +1,27 @@
+package FirstPackage;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		
+		/*
+		There are 3 types of Collections
+		1. List
+		2. Set
+		3. Map
+		
+		List - ArrayList, LinkedList and Vector
+		
+		Set - HashSet, LinkedHashSet and TreeSet
+		
+		Map - HashMap, TreeMap and LinkedHashMap
+		
+		
+		
+		
+		
+		*/
+
+	}
+
+}

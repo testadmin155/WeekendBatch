@@ -1,0 +1,50 @@
+package FirstPackage;
+
+import java.util.ArrayList;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		
+		/*
+		There are 3 types of Collections
+		1.List
+		2.Set
+		3.Map
+		
+		List - ArrayList, LinkedList and Vector
+		List is an Ordered Collection and it can save duplicate values
+		
+		Set - HashSet, LinkedHashSet and TreeSet
+		A set is a collection that cannot contain duplicate values
+		There is no guarantee of the order
+		
+		Map - HashMap, TreeMap and LinkedHashMap
+		A Map is a collection that cannot contain duplicate values
+		HashMap takes the values in Key and Value pair
+		
+		*/
+
+//ArrayList
+		
+		ArrayList<String> obj = new ArrayList<String>();
+		
+		obj.add("Usman");
+		obj.add("Achala");
+		obj.add("ashwini");
+		obj.add("Shoaib");
+		obj.add(10);
+		
+ 
+		
+ 
+		
+		
+		
+		
+		
+
+
+	}
+
+}
