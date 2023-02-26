@@ -34,7 +34,7 @@ public class Collections {
 //ArrayList
 
 	/*
-		ArrayList obj = new ArrayList();
+		 
 		
 		obj.add("Usman"); //1
 		obj.add("Achala");  //2

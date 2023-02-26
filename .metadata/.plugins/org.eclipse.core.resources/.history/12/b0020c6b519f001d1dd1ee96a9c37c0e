@@ -1,9 +1,0 @@
-package FirstPackage;
-
-public interface TelecomAuthorityInterface {
-	
-	//Class witll have Metods with boduy / with Implementation
-	
-	// Interface will have Methods without Body / without Implementation
-
-}
