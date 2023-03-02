@@ -11,7 +11,6 @@ public class StaticDropdown {
 	 1. Static 
 	 2. Dynamic
 	 
-	 
 	 1. Static Dropdown:
 	 		- If u find any dropdown with fixed options then it is called as static dropdown
 	 		- If you find any dropdown with tagname Select,then Selenium has a class to identify element
@@ -69,6 +68,9 @@ public class StaticDropdown {
 		driver.findElement(By.id("divpaxinfo")).click();
 		driver.close();
 
+		// How to write X-path using class and using regular expression
+		//(//select[@class='wMed1s required guests'])[3]
+		//(//select[contains(@class,'wMed1s')])[3]
 	}
 
 }
