@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 public class BaseTest {
 	static WebDriver driver;
 	
-	public void browserinit()
+	static void browserinit()
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\Testing Session\\SeleniumTraining\\BrowserDrivers\\ChromeLatest\\chromedriver.exe");
 		driver = new ChromeDriver();
