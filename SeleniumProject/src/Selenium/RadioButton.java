@@ -53,6 +53,7 @@ public class RadioButton extends BaseTest{
 		
 		//System.out.println(driver.findElement(By.id("ControlGroupSearchView_AvailabilitySearchInputSearchView_RoundTrip")).isSelected());
 
+		// Sample test
 	}
 
 }
