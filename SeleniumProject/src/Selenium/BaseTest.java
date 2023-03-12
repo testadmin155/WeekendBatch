@@ -11,12 +11,12 @@ import org.openqa.selenium.support.ui.Select;
 public class BaseTest {
 	static WebDriver driver;
 	
-	static void browserinit()
+	static void browserinit(String url)
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\Testing Session\\SeleniumTraining\\BrowserDrivers\\ChromeLatest\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
-		driver.get("https://book.spicejet.com/");
+		driver.get(url);
 		driver.manage().window().maximize();
 	}
 	

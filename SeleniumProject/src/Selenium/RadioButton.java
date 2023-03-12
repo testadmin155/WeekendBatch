@@ -11,7 +11,7 @@ public class RadioButton extends BaseTest{
 		
 		RadioButton obj = new RadioButton();
 		
-		obj.browserinit();
+		obj.browserinit("https://book.spicejet.com/");
 		
 		List<WebElement> traveloptions=driver.findElements(By.xpath("//div[@id='travelOptions']/div/label"));
 		

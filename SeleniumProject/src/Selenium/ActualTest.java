@@ -8,7 +8,7 @@ public class ActualTest extends BaseTest{
 		
 		//Test case -1
 		System.out.println("-------------Testcase 1----------------");
-		obj.browserinit();
+		obj.browserinit("https://book.spicejet.com/");
 		obj.currencyType("SAR");
 		obj.checkbox("Healthcare Professionals", "HealthCareProfessional");
 		obj.SelectPassanger("3", "2", 1);
@@ -18,7 +18,7 @@ public class ActualTest extends BaseTest{
 		
 		//Test case -2
 		System.out.println("------------Testcase 2-----------------");
-		obj.browserinit();
+		obj.browserinit("https://book.spicejet.com");
 		obj.currencyType("KWD");
 		obj.SelectPassanger("2", "1", 2);
 		obj.checkbox("Student", "Student");
@@ -27,7 +27,7 @@ public class ActualTest extends BaseTest{
 		
 		//Test case -3
 		System.out.println("--------------------Testcase 3--------------");
-		obj.browserinit();
+		obj.browserinit("https://book.spicejet.com");
 		obj.currencyType("GBP");
 		obj.SelectPassanger("1", "0", 1);
 		obj.checkbox("Armed Forces", "Defense");

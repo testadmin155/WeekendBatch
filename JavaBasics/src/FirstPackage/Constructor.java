@@ -19,6 +19,11 @@ public class Constructor {
 		System.out.println("I am a constructor4");
 	}
 	
+	public Constructor(String x, int y) 
+	{
+		System.out.println("I am a constructor5");
+	}
+	
 	public void getData(int x)
 	{
 		System.out.println("this is a Method");
@@ -32,7 +37,7 @@ public class Constructor {
 		Constructor obj2 = new Constructor(10,20);
 		*/
 		
-		//Constructor obj = new Constructor(10);
+		Constructor obj = new Constructor("test",10);
 		
 		obj.getData(20);
 		
