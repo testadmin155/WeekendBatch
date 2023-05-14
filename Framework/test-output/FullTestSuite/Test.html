@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 14 21:13:38 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (194 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestPackage.MortageLoan.MortageLoanWEB()'><b>MortageLoanWEB</b><br>Test class: TestPackage.MortageLoan</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at TestPackage.MortageLoan.MortageLoanWEB(MortageLoan.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace480490520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace480490520'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at TestPackage.MortageLoan.MortageLoanWEB(MortageLoan.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestPackage.MortageLoan@e7edb54</td></tr>
+<tr>
+<td title='TestPackage.CarBuyLoan.CarBuyLoanApp()'><b>CarBuyLoanApp</b><br>Test class: TestPackage.CarBuyLoan</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at TestPackage.CarBuyLoan.CarBuyLoanApp(CarBuyLoan.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1273143001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1273143001'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at TestPackage.CarBuyLoan.CarBuyLoanApp(CarBuyLoan.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>TestPackage.CarBuyLoan@41fecb8b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestPackage.CarLease.CarLeaseApp()'><b>CarLeaseApp</b><br>Test class: TestPackage.CarLease</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.CarLease@625732</td></tr>
+<tr>
+<td title='TestPackage.CarLease.CarLeaseBranch()'><b>CarLeaseBranch</b><br>Test class: TestPackage.CarLease</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.CarLease@625732</td></tr>
+<tr>
+<td title='TestPackage.CarBuyLoan.CarBuyLoanBranch()'><b>CarBuyLoanBranch</b><br>Test class: TestPackage.CarBuyLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.CarBuyLoan@41fecb8b</td></tr>
+<tr>
+<td title='TestPackage.FixedLoan.FixedLoanBranch()'><b>FixedLoanBranch</b><br>Test class: TestPackage.FixedLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.FixedLoan@272ed83b</td></tr>
+<tr>
+<td title='TestPackage.SmartLoan.SmartLoanBranch()'><b>SmartLoanBranch</b><br>Test class: TestPackage.SmartLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.SmartLoan@51dcb805</td></tr>
+<tr>
+<td title='TestPackage.SmartLoan.SmartLoanWEB()'><b>SmartLoanWEB</b><br>Test class: TestPackage.SmartLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.SmartLoan@51dcb805</td></tr>
+<tr>
+<td title='TestPackage.SmartLoan.SmartLoannApp()'><b>SmartLoannApp</b><br>Test class: TestPackage.SmartLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.SmartLoan@51dcb805</td></tr>
+<tr>
+<td title='TestPackage.FixedLoan.FixedLoanApp()'><b>FixedLoanApp</b><br>Test class: TestPackage.FixedLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.FixedLoan@272ed83b</td></tr>
+<tr>
+<td title='TestPackage.FlexiLoan.FlexiLoanBranch()'><b>FlexiLoanBranch</b><br>Test class: TestPackage.FlexiLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.FlexiLoan@120f102b</td></tr>
+<tr>
+<td title='TestPackage.FixedLoan.FixedLoanWEB()'><b>FixedLoanWEB</b><br>Test class: TestPackage.FixedLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.FixedLoan@272ed83b</td></tr>
+<tr>
+<td title='TestPackage.MortageLoan.MortageLoanBranch()'><b>MortageLoanBranch</b><br>Test class: TestPackage.MortageLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.MortageLoan@e7edb54</td></tr>
+<tr>
+<td title='TestPackage.MortageLoan.MortageLoanApp()'><b>MortageLoanApp</b><br>Test class: TestPackage.MortageLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.MortageLoan@e7edb54</td></tr>
+<tr>
+<td title='TestPackage.CarBuyLoan.CarBuyLoanWEB()'><b>CarBuyLoanWEB</b><br>Test class: TestPackage.CarBuyLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.CarBuyLoan@41fecb8b</td></tr>
+<tr>
+<td title='TestPackage.FlexiLoan.FlexiLoanWEB()'><b>FlexiLoanWEB</b><br>Test class: TestPackage.FlexiLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.FlexiLoan@120f102b</td></tr>
+<tr>
+<td title='TestPackage.FlexiLoan.FlexiLoanApp()'><b>FlexiLoanApp</b><br>Test class: TestPackage.FlexiLoan</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.FlexiLoan@120f102b</td></tr>
+<tr>
+<td title='TestPackage.CarLease.CarLeaseWEB()'><b>CarLeaseWEB</b><br>Test class: TestPackage.CarLease</td>
+<td></td>
+<td>0</td>
+<td>TestPackage.CarLease@625732</td></tr>
+</table><p>
+</body>
+</html>

@@ -3,12 +3,13 @@ package Selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class LoginTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "E:\\Testing Session\\SeleniumTraining\\BrowserDrivers\\ChromeLatest\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Testing Session\\SeleniumTraining\\BrowserDrivers\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Practise website - https://demo.automationtesting.in/Register.html
@@ -59,16 +60,22 @@ public class LoginTest {
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input.signinbtn")).click(); //tagName.classname
 		
-		String message = driver.findElement(By.id("div_login_error")).getText();
+		String Expectedmessage = "Wrong username and password combination.";
+		String Actualmessage = driver.findElement(By.id("div_login_error")).getText();
 		
-		if(message.equals("Wrong username and password combination"))
+		/*if(Actualmessage.equals(Expectedmessage))
 		{
-			System.out.println("Username and password incorrect");
+			System.out.println("Test case is passed");
+			
 		}
 		else
 		{
-			System.out.println("Username and password correct");
-		}
+			System.out.println("Test case is Failed");
+			
+			
+		}*/
+		
+		Assert.assertEquals(Actualmessage, Expectedmessage);
 		
 		//driver.close();
 		
