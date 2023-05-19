@@ -3,7 +3,7 @@ package TestPackage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SmartLoan {
+public class SmartLoan extends Annotations{
 
 	@Test
 	public void SmartLoanWEB()

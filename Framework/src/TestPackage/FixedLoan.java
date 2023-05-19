@@ -3,7 +3,7 @@ package TestPackage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FixedLoan {
+public class FixedLoan extends Annotations{
 
 	@Test(dependsOnMethods = {"FixedLoanApp"})
 	public void FixedLoanWEB()

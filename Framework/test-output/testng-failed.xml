@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPackage.MortageLoan">
+      <class name="TestPackage.CarBuyLoan">
         <methods>
-          <include name="MortageLoanWEB"/>
+          <include name="CarBuyLoanApp"/>
         </methods>
-      </class> <!-- TestPackage.MortageLoan -->
+      </class> <!-- TestPackage.CarBuyLoan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

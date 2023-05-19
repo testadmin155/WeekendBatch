@@ -18,7 +18,7 @@ public class LoginTest {
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		
 		// Locator - ID
-		//driver.findElement(By.id("login1")).sendKeys("testautomation");
+		//driver.findElement(By.id("login1")).sendKeys("testautomation"); // prop.getProperty("username")
 		//driver.findElement(By.id("password")).sendKeys("Password@1234");
 		
 		//Locator - name

@@ -13,7 +13,7 @@ public class LoginMultiUsers {
 	static void Login(String username, String password)
 	{
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-		driver.findElement(By.id("login1")).sendKeys(username);
+		driver.findElement(By.id("login1")).sendKeys(username); //
 		driver.findElement(By.name("passwd")).sendKeys(password);
 		driver.findElement(By.xpath("//input[@value='Sign in']")).click();
 		

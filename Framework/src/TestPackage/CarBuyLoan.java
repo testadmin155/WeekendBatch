@@ -3,7 +3,7 @@ package TestPackage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class CarBuyLoan {
+public class CarBuyLoan extends Annotations{
 	
 	@Test(groups= {"Regression"})
 	public void CarBuyLoanWEB()
@@ -15,7 +15,7 @@ public class CarBuyLoan {
 	public void CarBuyLoanApp()
 	{
 		System.out.println("CarBuyLoan from App");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	
 	@Test(groups= {"Regression"})

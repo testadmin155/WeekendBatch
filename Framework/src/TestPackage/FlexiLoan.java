@@ -3,7 +3,7 @@ package TestPackage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FlexiLoan {
+public class FlexiLoan extends Annotations{
 	
 	@Test(groups= {"Sanity"})
 	public void FlexiLoanWEB()
